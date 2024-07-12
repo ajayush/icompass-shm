@@ -1,0 +1,1929 @@
+{
+  "Bridges": [
+    {
+      "BridgeAbbreviation": "BBB",
+      "BridgeName": "Burlington-Bristol Bridge"
+    },
+    {
+      "BridgeAbbreviation": "TPB",
+      "BridgeName": "Tacony-Palmyra Bridge"
+    },
+    {
+      "BridgeAbbreviation": "RDB",
+      "BridgeName": "Riverside-Delanco Bridge"
+    }
+  ],
+  "Daqs": [
+    {
+      "BridgeName": "BBB",
+      "Name": "BB04A",
+      "Model": "CR6",
+      "SpanOrPier": "S1",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BB05A",
+      "SpanOrPier": "S2",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BB17A",
+      "SpanOrPier": "S3",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BB19A",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "L4"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BBMHA",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BBMHB",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "Tower PA"
+    },
+    {
+      "BridgeName": "BBB",
+      "Name": "BBMHC",
+      "SpanOrPier": "S3",
+      "UpstreamDownstream": "-",
+      "Location": "L0"
+    },
+    {
+      "BridgeName": "RDB",
+      "Name": "RDB",
+      "SpanOrPier": "S1",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "TPB",
+      "Name": "TP08A",
+      "SpanOrPier": "S2",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "TPB",
+      "Name": "TP18A",
+      "SpanOrPier": "S3",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "TPB",
+      "Name": "TP21A",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "L4"
+    },
+    {
+      "BridgeName": "TPB",
+      "Name": "TP23A",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "U6"
+    },
+    {
+      "BridgeName": "TPB",
+      "Name": "TPAWA",
+      "SpanOrPier": "S4",
+      "UpstreamDownstream": "US",
+      "Location": "Tower PA"
+    }
+  ],
+  "Sensors": [
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB04A",
+      "Name": "BB04A_BB04A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BB04A_BB04A_D",
+      "System": "Baseline",
+      "Model": "Geokon Model 4150 Weldable Strain gage",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHC",
+      "Name": "BBMHC_Storage_Static",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHC_Storage_Static",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "RDB",
+      "DaqName": "RDB",
+      "Name": "RDB_System_Status",
+      "Abbreviation": "SG",
+      "AlternateName": "RDB_System_Status",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "RDB",
+      "DaqName": "RDB",
+      "Name": "RDB_Weather_Station",
+      "Abbreviation": "SG",
+      "AlternateName": "RDB_Weather_Station",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "RDB",
+      "DaqName": "RDB",
+      "Name": "RDB_Surface_Condition_arch1",
+      "Abbreviation": "SG",
+      "AlternateName": "RDB_Surface_Condition_arch1",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "RDB",
+      "DaqName": "RDB",
+      "Name": "RDB_Surface_Condition",
+      "Abbreviation": "SG",
+      "AlternateName": "RDB_Surface_Condition",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "RDB",
+      "DaqName": "RDB",
+      "Name": "RDB_Public",
+      "Abbreviation": "SG",
+      "AlternateName": "RDB_Public",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHC",
+      "Name": "BBMHC_Storage",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHC_Storage",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP08A",
+      "Name": "TP08A_TP08A_AG",
+      "Abbreviation": "SG",
+      "AlternateName": "TP08A_TP08A_AG",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP08A",
+      "Name": "TP08A_TP08A_W",
+      "Abbreviation": "SG",
+      "AlternateName": "TP08A_TP08A_W",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP18A",
+      "Name": "TP18A_TP18A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "TP18A_TP18A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP18A",
+      "Name": "TP18A_TP18A_TIFB",
+      "Abbreviation": "SG",
+      "AlternateName": "TP18A_TP18A_TIFB",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP21A",
+      "Name": "TP21A_TP21A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "TP21A_TP21A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP21A",
+      "Name": "TP21A_TP21A_TIFB",
+      "Abbreviation": "SG",
+      "AlternateName": "TP21A_TP21A_TIFB",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP23A",
+      "Name": "TP23A_TP23A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "TP23A_TP23A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP08A",
+      "Name": "TP08A_TP08A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "TP08A_TP08A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TP23A",
+      "Name": "TP23A_TP23A_W",
+      "Abbreviation": "SG",
+      "AlternateName": "TP23A_TP23A_W",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHC",
+      "Name": "BBMHC_BBMHC_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHC_BBMHC_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHB",
+      "Name": "BBMHB_BBMHB_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHB_BBMHB_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB05A",
+      "Name": "BB05A_BB05A_D_arch1",
+      "Abbreviation": "SG",
+      "AlternateName": "BB05A_BB05A_D_arch1",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB05A",
+      "Name": "BB05A_BB05A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BB05A_BB05A_D",
+      "System": "Baseline",
+      "Model": "Geokon Model 4150 Weldable Strain gage",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB05A",
+      "Name": "BB05A_BB05A_W_arch1",
+      "Abbreviation": "SG",
+      "AlternateName": "BB05A_BB05A_W_arch1",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB05A",
+      "Name": "BB05A_BB05A_W",
+      "Abbreviation": "SG",
+      "AlternateName": "BB05A_BB05A_W",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB05A",
+      "Name": "BB05A_BB05A_Portal",
+      "Abbreviation": "SG",
+      "AlternateName": "BB05A_BB05A_Portal",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB17A",
+      "Name": "BB17A_BB17A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BB17A_BB17A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHB",
+      "Name": "BBMHB_BBMHBLH",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHB_BBMHBLH",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB17A",
+      "Name": "BB17A_BB17A_W",
+      "Abbreviation": "SG",
+      "AlternateName": "BB17A_BB17A_W",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHA",
+      "Name": "BBMHA_BBMHA_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHA_BBMHA_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHA",
+      "Name": "BBMHA_BBMHA_ER",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHA_BBMHA_ER",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHA",
+      "Name": "BBMHA_BBMHA_VW",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHA_BBMHA_VW",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "L6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHB",
+      "Name": "BBMHB_BBMBLH_Openings",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHB_BBMBLH_Openings",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "DS",
+      "Member": "U6_U5'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHB",
+      "Name": "BBMHB_BBMHBAG_Longterm",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHB_BBMHBAG_Longterm",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "U6_U5'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BBMHB",
+      "Name": "BBMHB_BBMHBAG_Opening",
+      "Abbreviation": "SG",
+      "AlternateName": "BBMHB_BBMHBAG_Opening",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Inside"
+    },
+    {
+      "BridgeName": "BBB",
+      "DaqName": "BB19A",
+      "Name": "BB19A_BB19A_D",
+      "Abbreviation": "SG",
+      "AlternateName": "BB19A_BB19A_D",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_L4'",
+      "Position": "Outside"
+    },
+    {
+      "BridgeName": "TPB",
+      "DaqName": "TPAWA",
+      "Name": "TPAWA_TPAWA_VW",
+      "Abbreviation": "SG",
+      "AlternateName": "TPAWA_TPAWA_VW",
+      "System": "Baseline",
+      "SpanOrPier": "Span 1",
+      "UpstreamDownstream": "US",
+      "Member": "L6_U5'",
+      "Position": "Inside"
+    }
+  ],
+  "SensorOutputs": [
+    {
+      "SensorName": "BB04A_BB04A_D",
+      "OutputType": "Strain",
+      "TableName": "BB04A_BB04A_D",
+      "ColumnName": "BB04ABV_Min"
+    },
+    {
+      "SensorName": "TP18A_TP18A_D",
+      "OutputType": "Temperature",
+      "TableName": "TP18A_TP18A_D",
+      "ColumnName": "TP18APT_Avg"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "FB",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18ATI_FB"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_1"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_2"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_3"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_4"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_5"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_6"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_7"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_8"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_9"
+    },
+    {
+      "SensorName": "TP18A_TP18A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP18A_TP18A_TIFB",
+      "ColumnName": "TP18AS2_ER_10"
+    },
+    {
+      "SensorName": "TP21A_TP21A_D",
+      "OutputType": "Strain",
+      "TableName": "TP21A_TP21A_D",
+      "ColumnName": "TP21ABV_Min"
+    },
+    {
+      "SensorName": "TP21A_TP21A_D",
+      "OutputType": "Temperature",
+      "TableName": "TP21A_TP21A_D",
+      "ColumnName": "TP21APT_Avg"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "FB",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21ATI_FB"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_1"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_2"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_3"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_4"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_5"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_6"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_7"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_8"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_9"
+    },
+    {
+      "SensorName": "TP21A_TP21A_TIFB",
+      "OutputType": "ER",
+      "TableName": "TP21A_TP21A_TIFB",
+      "ColumnName": "TP21AS2_ER_10"
+    },
+    {
+      "SensorName": "TP23A_TP23A_D",
+      "OutputType": "Strain",
+      "TableName": "TP23A_TP23A_D",
+      "ColumnName": "TP23ABV_Min"
+    },
+    {
+      "SensorName": "TP23A_TP23A_D",
+      "OutputType": "Temperature",
+      "TableName": "TP23A_TP23A_D",
+      "ColumnName": "TP23APT_Avg"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "OutputType": "Temperature",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AST_Avg"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "OutputType": "Temperature",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AT_Avg"
+    },
+    {
+      "SensorName": "TP18A_TP18A_D",
+      "OutputType": "Strain",
+      "TableName": "TP18A_TP18A_D",
+      "ColumnName": "TP18ABV_Min"
+    },
+    {
+      "SensorName": "TP08A_TP08A_W",
+      "OutputType": "DP",
+      "TableName": "TP08A_TP08A_W",
+      "ColumnName": "TP23ADP"
+    },
+    {
+      "SensorName": "TP08A_TP08A_W",
+      "OutputType": "Temperature",
+      "TableName": "TP08A_TP08A_W",
+      "ColumnName": "TP08AST"
+    },
+    {
+      "SensorName": "TP08A_TP08A_D",
+      "OutputType": "Temperature",
+      "TableName": "TP08A_TP08A_D",
+      "ColumnName": "TP08APT_Avg"
+    },
+    {
+      "SensorName": "RDB_System_Status",
+      "TableName": "RDB_System_Status",
+      "ColumnName": "ST_Status_String"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "Air Temperature",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Air_Temperature_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "WS",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Wind_Speed_Avg_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "WD",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Wind_Direction_Cardinal"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "WS",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Wind_Speed_Max_Max"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "WS",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Wind_Speed_Max_TMx"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "WD",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Wind_Direction_Avg_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "RH",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Relative_Humidity_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "AP",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Air_Pressure_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "HI",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Hail_Intensity_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "RI",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Rain_Intensity_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "RA",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Rain_Amount"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "HA",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Hail_Amount"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "HD",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Hail_Duration"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "OutputType": "RH",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23ARH_Avg"
+    },
+    {
+      "SensorName": "RDB_Weather_Station",
+      "OutputType": "RD",
+      "TableName": "RDB_Weather_Station",
+      "ColumnName": "WS_Rain_Duration"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Water",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Water_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Ice",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Ice_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Snow",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Snow_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Air Temperature",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Air_Temperature_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Air Temperature",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "ST_Air_Temperature_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "RH",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "ST_Relative_Humidity_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "DP",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "ST_Dew_Point_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "OutputType": "Temperature",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "ST_Surface_Temperature_Avg"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Surface_Status"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Surface_Status_String"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Surface_Warning_String"
+    },
+    {
+      "SensorName": "TP08A_TP08A_AG",
+      "TableName": "TP08A_TP08A_AG",
+      "ColumnName": "Distance_raw"
+    },
+    {
+      "SensorName": "TP08A_TP08A_AG",
+      "TableName": "TP08A_TP08A_AG",
+      "ColumnName": "Distance"
+    },
+    {
+      "SensorName": "TP08A_TP08A_D",
+      "TableName": "TP08A_TP08A_D",
+      "ColumnName": "TP08ABV_Min"
+    },
+    {
+      "SensorName": "RDB_Surface_Condition",
+      "TableName": "RDB_Surface_Condition",
+      "ColumnName": "SS_Grip_Avg"
+    },
+    {
+      "SensorName": "RDB_System_Status",
+      "TableName": "RDB_System_Status",
+      "ColumnName": "SS_Window_String"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AWD_Avg"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AW_Max"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_2"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_3"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_4"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_5"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_6"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_7"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_8"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_9"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_10"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_11"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_12"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_13"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_14"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_15"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_16"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_17"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_18"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_19"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_20"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_21"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_22"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_23"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_24"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_25"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_26"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_27"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_28"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_29"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_30"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_1"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAD_VW_2"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAD_VW_1"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS2_VW_2"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AW_TMx"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_1"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_2"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_3"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_4"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_5"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_6"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_7"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_8"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_9"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_10"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_11"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_12"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_13"
+    },
+    {
+      "SensorName": "TP23A_TP23A_W",
+      "TableName": "TP23A_TP23A_W",
+      "ColumnName": "TP23AW_Avg"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_14"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_16"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_17"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_18"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_19"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_20"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_21"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_22"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_23"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_24"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_25"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_26"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_27"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_28"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS2_VW_1"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAS6_VW_15"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_31"
+    },
+    {
+      "SensorName": "RDB_System_Status",
+      "TableName": "RDB_System_Status",
+      "ColumnName": "SS_Hardware_String"
+    },
+    {
+      "SensorName": "RDB_System_Status",
+      "TableName": "RDB_System_Status",
+      "ColumnName": "Battery_V_Min"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS2_ER_4"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_1"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_2"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_3"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_4"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_5"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_6"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_7"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_8"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_9"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_10"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_11"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_12"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_VW",
+      "TableName": "BBMHA_BBMHA_VW",
+      "ColumnName": "BBMHA_VW_13"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBAG_Longterm",
+      "TableName": "BBMHB_BBMHBAG_Longterm",
+      "ColumnName": "Distance_raw"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBAG_Longterm",
+      "TableName": "BBMHB_BBMHBAG_Longterm",
+      "ColumnName": "Distance"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBAG_Opening",
+      "TableName": "BBMHB_BBMHBAG_Opening",
+      "ColumnName": "Distance_raw"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBAG_Opening",
+      "TableName": "BBMHB_BBMHBAG_Opening",
+      "ColumnName": "Distance"
+    },
+    {
+      "SensorName": "BBMHB_BBMHB_D",
+      "TableName": "BBMHB_BBMHB_D",
+      "ColumnName": "BBMHBBV_Min"
+    },
+    {
+      "SensorName": "BBMHB_BBMHB_D",
+      "TableName": "BBMHB_BBMHB_D",
+      "ColumnName": "BBMHBPT_Avg"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBLH",
+      "TableName": "BBMHB_BBMHBLH",
+      "ColumnName": "BBMHBLH_1"
+    },
+    {
+      "SensorName": "BBMHB_BBMHBLH",
+      "TableName": "BBMHB_BBMHBLH",
+      "ColumnName": "BBMHBLH_2"
+    },
+    {
+      "SensorName": "BBMHC_BBMHC_D",
+      "TableName": "BBMHC_BBMHC_D",
+      "ColumnName": "BBMHABV_Min"
+    },
+    {
+      "SensorName": "BBMHC_BBMHC_D",
+      "TableName": "BBMHC_BBMHC_D",
+      "ColumnName": "BBMHAPT_Avg"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA1"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA2"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA3"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA4"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA5"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS2_ER_3"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS2_ER_2"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS2_ER_1"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_8"
+    },
+    {
+      "SensorName": "BB04A_BB04A_D",
+      "TableName": "BB04A_BB04A_D",
+      "ColumnName": "BB04APT_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_D",
+      "TableName": "BB05A_BB05A_D",
+      "ColumnName": "BB05ABV_Min"
+    },
+    {
+      "SensorName": "BB05A_BB05A_D",
+      "TableName": "BB05A_BB05A_D",
+      "ColumnName": "BB05APT_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "OutputType": "Air Temperature",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Air_Temperature_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Wind_Speed_Avg_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Wind_Speed_Max_Max"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Wind_Speed_Max_TMx"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Wind_Direction_Avg_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Wind_Direction_Cardinal"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Relative_Humidity_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Air_Pressure_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Hail_Intensity_Avg"
+    },
+    {
+      "SensorName": "BB05A_BB05A_W",
+      "TableName": "BB05A_BB05A_W",
+      "ColumnName": "WS_Rain_Intensity_Avg"
+    },
+    {
+      "SensorName": "BB17A_BB17A_D",
+      "TableName": "BB17A_BB17A_D",
+      "ColumnName": "BB17ABV_Min"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA6"
+    },
+    {
+      "SensorName": "BB17A_BB17A_D",
+      "TableName": "BB17A_BB17A_D",
+      "ColumnName": "BB17APT_Avg"
+    },
+    {
+      "SensorName": "BB17A_BB17A_W",
+      "TableName": "BB17A_BB17A_W",
+      "ColumnName": "BB17AT"
+    },
+    {
+      "SensorName": "BB17A_BB17A_W",
+      "TableName": "BB17A_BB17A_W",
+      "ColumnName": "BB17ARH"
+    },
+    {
+      "SensorName": "BB17A_BB17A_W",
+      "TableName": "BB17A_BB17A_W",
+      "ColumnName": "BB17ADP"
+    },
+    {
+      "SensorName": "BB19A_BB19A_D",
+      "TableName": "BB19A_BB19A_D",
+      "ColumnName": "BB19ABV_Min"
+    },
+    {
+      "SensorName": "BB19A_BB19A_D",
+      "TableName": "BB19A_BB19A_D",
+      "ColumnName": "BB19APT_Avg"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_D",
+      "TableName": "BBMHA_BBMHA_D",
+      "ColumnName": "BBMHABV_Min"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_D",
+      "TableName": "BBMHA_BBMHA_D",
+      "ColumnName": "BBMHAPT_Avg"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_1"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_2"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_3"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_4"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_5"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_6"
+    },
+    {
+      "SensorName": "BBMHA_BBMHA_ER",
+      "TableName": "BBMHA_BBMHA_ER",
+      "ColumnName": "BBMHAS1_ER_7"
+    },
+    {
+      "SensorName": "BB17A_BB17A_W",
+      "TableName": "BB17A_BB17A_W",
+      "ColumnName": "BB17AST_Avg"
+    },
+    {
+      "SensorName": "RDB_System_Status",
+      "TableName": "RDB_System_Status",
+      "ColumnName": "Panel_Temperature_Avg"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA7"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA9"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ8_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ9_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ10_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ11_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ12_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA1_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA2_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA3_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA4_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA5_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA6_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA7_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA8_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA9_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA10_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA11_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA12_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ1_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ2_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ3_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ4_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ5_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ6_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ7_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ8_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ9_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ10_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ11_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ12_Temp"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ7_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ6_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ5_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ4_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA10"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA11"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA12"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ1"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ2"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ3"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ4"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ5"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ6"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ7"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ8"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ9"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ10"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ11"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "PA8"
+    },
+    {
+      "SensorName": "BBMHC_Storage",
+      "TableName": "BBMHC_Storage",
+      "ColumnName": "NJ12"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA2_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA3_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA4_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA5_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA6_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA7_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA8_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA9_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA10_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA11_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA12_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ1_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ2_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "NJ3_Static"
+    },
+    {
+      "SensorName": "BBMHC_Storage_Static",
+      "TableName": "BBMHC_Storage_Static",
+      "ColumnName": "PA1_Static"
+    },
+    {
+      "SensorName": "TPAWA_TPAWA_VW",
+      "TableName": "TPAWA_TPAWA_VW",
+      "ColumnName": "TPAWAT_VW_32"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.Common.DbCore</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.Common.DbCore</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BridgeIntelligence.CommonCore.Utilities" Version="4.0.39" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.DbInterfaces\Shm.Common.DbInterfaces.csproj" />
+	  <ProjectReference Include="..\Shm.Common.DbModels\Shm.Common.DbModels.csproj" />
+	  <ProjectReference Include="..\Shm.Common.ApiModels\Shm.Common.ApiModels.csproj" />
+	  <ProjectReference Include="..\Shm.Common.Utilities\Shm.Common.Utilities.csproj" />
+	</ItemGroup>
+
+</Project>

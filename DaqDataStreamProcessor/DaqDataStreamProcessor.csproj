@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.DaqDataStreamProcessor.Api</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.DaqDataStreamProcessor.Api</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BridgeIntelligence.CommonCore.ApiBase" Version="4.0.39" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ApiControllers\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.ApiBase\Shm.Common.ApiBase.csproj" />
+	  <ProjectReference Include="..\Shm.Common.ApiModels\Shm.Common.ApiModels.csproj" />
+	  <ProjectReference Include="..\Shm.Common.DbCore\Shm.Common.DbCore.csproj" />
+	  <ProjectReference Include="..\Shm.Common.DbInterfaces\Shm.Common.DbInterfaces.csproj" />
+	  <ProjectReference Include="..\Shm.Common.EventLogger\Shm.Common.EventLogger.csproj" />
+	  <ProjectReference Include="..\Shm.Common.Utilities\Shm.Common.Utilities.csproj" />
+	</ItemGroup>
+
+</Project>

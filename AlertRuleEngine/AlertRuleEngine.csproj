@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.AlertRuleEngine.Api</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.AlertRuleEngine.Api</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BridgeIntelligence.CommonCore.EmailSender" Version="4.0.39" />
+	  <PackageReference Include="NCalcSync" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.ApiBase\Shm.Common.ApiBase.csproj" />
+	</ItemGroup>
+
+</Project>

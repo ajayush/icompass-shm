@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>Library</OutputType>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <AssemblyName>BridgeIntelligence.iCompass.Shm.Common.DbInterfaces</AssemblyName>
+	  <RootNamespace>BridgeIntelligence.iCompass.Shm.Common.DbInterfaces</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BridgeIntelligence.CommonCore.Models" Version="4.0.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shm.Common.ApiModels\Shm.Common.ApiModels.csproj" />
+  </ItemGroup>
+
+</Project>

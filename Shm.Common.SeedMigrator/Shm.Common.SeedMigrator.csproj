@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.Common.SeedMigrator</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.Common.SeedMigrator</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BridgeIntelligence.CommonCore.Utilities" Version="4.0.39" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.DbCore\Shm.Common.DbCore.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Config\allTablesColumnsSensors.txt">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Config\SensorDetails_Test.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Config\SensorDetails_20240227.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>

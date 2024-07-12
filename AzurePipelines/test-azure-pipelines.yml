@@ -1,0 +1,62 @@
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+
+name: 1.0$(Rev:.r)
+
+pool:
+  vmImage: ubuntu-latest
+
+trigger:
+- develop
+pr:
+- None
+
+variables:
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  buildProjects:  |
+    **/ManagementApis/ManagementApis.csproj
+    **/DaqDataStreamProcessor/DaqDataStreamProcessor.csproj
+    **/Watchdog/Watchdog.csproj
+    **/AlertRuleEngine/AlertRuleEngine.csproj
+
+# Select dotnet core version
+steps:
+- task: UseDotNet@2
+  inputs:
+    version: '8.0.x'
+    packageType: runtime
+
+- task: NuGetToolInstaller@1
+- task: NuGetAuthenticate@1
+# Restore packages
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: $(buildProjects)
+    feedsToUse: 'config'
+    nugetConfigPath: 'NuGetAz.config'
+
+# Restore packages
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: $(buildProjects)
+    feedsToUse: 'config'
+    nugetConfigPath: 'NuGetAz.config'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: $(buildProjects)
+    zipAfterPublish: True
+    arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.Common.ApiBase</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.Common.ApiBase</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="BridgeIntelligence.CommonCore.ApiBase" Version="4.0.39" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.DbCore\Shm.Common.DbCore.csproj" />
+	  <ProjectReference Include="..\Shm.Common.EventLogger.Redis\Shm.Common.EventLogger.Redis.csproj" />
+	  <ProjectReference Include="..\Shm.Common.EventLogger\Shm.Common.EventLogger.csproj" />
+	  <ProjectReference Include="..\Shm.Common.Utilities\Shm.Common.Utilities.csproj" />
+	</ItemGroup>
+</Project>

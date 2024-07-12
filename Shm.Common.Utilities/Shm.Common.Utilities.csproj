@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>BridgeIntelligence.iCompass.Shm.Common.Utilities</AssemblyName>
+		<RootNamespace>BridgeIntelligence.iCompass.Shm.Common.Utilities</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BridgeIntelligence.CommonCore.Logger" Version="4.0.39" />
+	  <PackageReference Include="BridgeIntelligence.CommonCore.Models" Version="4.0.39" />
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Shm.Common.ApiModels\Shm.Common.ApiModels.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+	    <HintPath>..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.1\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.AspNetCore.Http.Features">
+	    <HintPath>..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\8.0.1\ref\net8.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

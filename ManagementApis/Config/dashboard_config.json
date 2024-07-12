@@ -1,0 +1,218 @@
+[
+  {
+    "BridgeName": "Burlington",
+    "DataName": "AirTempHistory",
+    "DataType": "WindowList",
+    "TableName": "BB04A_BB04A_D",
+    "ColumnName": "BB04APT_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "WindSpeedHistory",
+    "DataType": "WindowList",
+    "TableName": "BB05A_BB05A_W",
+    "ColumnName": "WS_Wind_Speed_Avg_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "AirGapHistory",
+    "DataType": "WindowList",
+    "TableName": "BBMHB_BBMHBAG_Longterm",
+    "ColumnName": "Distance_raw",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "AmbientAirTemperature",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_D_arch1",
+    "ColumnName": "BB05APT_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "NjApproachSurfaceTemperature",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_Portal",
+    "ColumnName": "WS_Air_Temperature",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "PaApproachSurfaceTemperature",
+    "DataType": "Point",
+    "TableName": "BBMHA_BBMHA_D",
+    "ColumnName": "BBMHAPT_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "AirGap",
+    "DataType": "Point",
+    "TableName": "BBMHB_BBMHBAG_Opening",
+    "ColumnName": "Distance",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "WindDirection",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_W",
+    "ColumnName": "WS_Wind_Direction_Avg_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Burlington",
+    "DataName": "WindSpeed",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_W",
+    "ColumnName": "WS_Wind_Speed_Max_Max",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "WindDirection",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_W_arch1",
+    "ColumnName": "WS_Wind_Direction_Avg_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "NjApproachSurfaceTemperature",
+    "DataType": "Point",
+    "TableName": "TP18A_TP18A_D",
+    "ColumnName": "TP18APT_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "PaApproachSurfaceTemperature",
+    "DataType": "Point",
+    "TableName": "TP08A_TP08A_W",
+    "ColumnName": "TP08AST",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "AmbientAirTemperature",
+    "DataType": "Point",
+    "TableName": "TP08A_TP08A_D",
+    "ColumnName": "TP08APT_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "AirTempHistory",
+    "DataType": "WindowList",
+    "TableName": "TP08A_TP08A_W",
+    "ColumnName": "TP08AST",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "WindSpeedHistory",
+    "DataType": "WindowList",
+    "TableName": "BB05A_BB05A_W",
+    "ColumnName": "WS_Wind_Speed_Max_Max",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "AirGapHistory",
+    "DataType": "WindowList",
+    "TableName": "TP08A_TP08A_AG",
+    "ColumnName": "Distance",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "AirGap",
+    "DataType": "Point",
+    "TableName": "TP08A_TP08A_AG",
+    "ColumnName": "Distance",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Tacony",
+    "DataName": "WindSpeed",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_W_arch1",
+    "ColumnName": "WS_Wind_Speed_Avg_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "PaApproachSurfaceTemperature",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_W_arch1",
+    "ColumnName": "BB05AST_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "AmbientAirTemperature",
+    "DataType": "Point",
+    "TableName": "RDB_Weather_Station",
+    "ColumnName": "WS_Air_Temperature_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "AirTempHistory",
+    "DataType": "WindowList",
+    "TableName": "RDB_Weather_Station",
+    "ColumnName": "WS_Air_Temperature_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "WindSpeedHistory",
+    "DataType": "WindowList",
+    "TableName": "RDB_Weather_Station",
+    "ColumnName": "WS_Wind_Speed_Max_Max",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 20
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "WindSpeed",
+    "DataType": "Point",
+    "TableName": "BB05A_BB05A_Portal",
+    "ColumnName": "WS_Wind_Speed_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  },
+  {
+    "BridgeName": "Riverside",
+    "DataName": "WindDirection",
+    "DataType": "Point",
+    "TableName": "RDB_Weather_Station",
+    "ColumnName": "WS_Wind_Direction_Avg_Avg",
+    "MaxIntervalInSeconds": null,
+    "MaxNumberOfPoints": 1
+  }
+]
